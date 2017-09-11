@@ -2,4 +2,5 @@ def greeting(msg):
     print(msg)
 
 
-greeting("hello")
+if __name__ == '__main__':
+    greeting("hello")
